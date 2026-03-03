@@ -1,0 +1,38 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Supabase async client
+supabase==2.10.0
+
+# Config / validation
+pydantic-settings==2.7.0
+
+# AI
+openai==1.58.1
+
+# HTTP (async, for external API calls)
+httpx==0.28.1
+
+# Scheduling
+apscheduler==3.11.0
+
+# Rate limiting
+slowapi==0.1.9
+
+# Cloudflare R2 / S3-compatible
+boto3==1.35.86
+
+# CSV / data import
+pandas==2.2.3
+
+# File uploads
+python-multipart==0.0.20
+
+# JWT decode
+PyJWT==2.10.1
+
+# Dev / testing
+pytest==8.3.4
+pytest-asyncio==0.25.2
+httpx  # also used for TestClient

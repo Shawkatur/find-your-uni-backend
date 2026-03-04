@@ -12,7 +12,7 @@ pydantic-settings==2.7.0
 openai==1.58.1
 
 # HTTP (async, for external API calls)
-httpx==0.28.1
+httpx>=0.26,<0.28
 
 # Scheduling
 apscheduler==3.10.4
